@@ -18,7 +18,7 @@ function nowServing(i) {
 function currentLine(l) {
   var line = [];
   if (l.length === 0) {
-    return "The line is currently empty";
+    return "The line is currently empty.";
   } else {
     for(let i = 0; i < l.length; i++) {
       line += (i + 1) + "." + l[i] + ","
